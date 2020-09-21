@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Events</string>
+    <string name="editTextLogin_1">Логин</string>
+    <string name="editTextPassword_1">Пароль</string>
+    <string name="button_1">Авторизироваться.</string>
+    <string name="button_reg_1">Зарегистрироваться.</string>
+    <string name="editTextLogin_2">Логин</string>
+    <string name="editTextPassword_2">Пароль</string>
+    <string name="button_2">Авторизироваться.</string>
+    <string name="button_reg_2">Зарегистрироваться.</string>
+    <string name="developer_button">NEXT</string>
+</resources>
