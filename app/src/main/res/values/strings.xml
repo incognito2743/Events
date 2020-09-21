@@ -10,4 +10,6 @@
     <string name="button_reg_2">Зарегистрироваться.</string>
     <string name="developer_button">NEXT</string>
     <string name="button_asd">Button</string>
+    <string name="hello_text">Здесь должно быть приветствие.</string>
+    <string name="button_test">Button</string>
 </resources>

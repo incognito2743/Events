@@ -45,6 +45,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="200dp"
             android:background="#FFC107"
+            android:onClick="OnClick"
             android:text="@string/button_2"
             android:textColor="#FFFFFF" />
 
