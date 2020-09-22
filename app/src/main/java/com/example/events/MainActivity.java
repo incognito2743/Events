@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
     }
 
-    public void OnClick(View v) {
+    public void OnClickLogIn(View v) {
         EditText editTextLogin = findViewById(R.id.editTextLogin);
         EditText editTextPassword = findViewById(R.id.editTextPassword);
 
@@ -32,5 +32,10 @@ public class MainActivity extends AppCompatActivity {
         else {
             Toast.makeText(this, "Неверный логин или пароль.", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void OnClickReg(View v) {
+        Intent intent = new Intent(MainActivity.this, RegistrationActivity.class);
+        startActivity(intent);
     }
 }

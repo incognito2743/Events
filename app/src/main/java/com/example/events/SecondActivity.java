@@ -20,8 +20,17 @@ public class SecondActivity extends AppCompatActivity {
 
         String login = intent.getStringExtra("login");
 
-        TextView viewText = findViewById(R.id.textView2);
+        TextView viewText = findViewById(R.id.helloText);
 
         viewText.setText("Привет, " + login);
+    }
+
+    public void OnClickSearch(View v) {
+        EditText editTextSearch = findViewById(R.id.editTextSearch);
+        TextView helloText = findViewById(R.id.helloText);
+
+        String strSearch = editTextSearch.getText().toString();
+
+        helloText.setText("По вашему запросу " + strSearch + " ничего не найдено.");
     }
 }

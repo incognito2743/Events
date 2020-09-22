@@ -4,70 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:clickable="false"
-    tools:context=".MainActivity">
+    tools:context=".RegistrationActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:background="#FFFFFF"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextLogin"
+            android:id="@+id/editTextRegLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="200dp"
             android:layout_marginRight="100dp"
-            android:layout_marginBottom="10dp"
             android:autofillHints=""
             android:ems="10"
-            android:hint="@string/editTextLogin_1"
+            android:hint="@string/editTextRegLogin_1"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/editTextRegEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="100dp"
             android:autofillHints=""
             android:ems="10"
-            android:hint="@string/editTextPassword_1"
+            android:hint="@string/editTextRegEmail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextRegPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/editTextRegPassword"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextRegPasswordVer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/editTextRegPasswordVer_1"
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/button_1"
+            android:id="@+id/buttonReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="100dp"
             android:background="#FFC107"
-            android:onClick="OnClickLogIn"
-            android:text="@string/buttonLogIn_1"
-            android:textColor="#FFFFFF" />
-
-        <Button
-            android:id="@+id/button_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="100dp"
-            android:background="#FFC107"
-            android:onClick="OnClickReg"
             android:text="@string/buttonReg_1"
             android:textColor="#FFFFFF" />
-
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
