@@ -24,4 +24,6 @@
     <string name="editTextRegPassword_2">Пароль</string>
     <string name="editTextRegPasswordVer">Повторите пароль</string>
     <string name="buttonRegTwo_2">Зарегистрироваться.</string>
+    <string name="titleEvent">Название: День города.</string>
+    <string name="ownerEvent">Организатор: Виктор Прокопьев.</string>
 </resources>

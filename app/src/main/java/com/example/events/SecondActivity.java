@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.w3c.dom.Element;
+
 public class SecondActivity extends AppCompatActivity {
 
     @Override
@@ -31,6 +33,11 @@ public class SecondActivity extends AppCompatActivity {
 
         String strSearch = editTextSearch.getText().toString();
 
-        helloText.setText("По вашему запросу " + strSearch + " ничего не найдено.");
+        helloText.setText("По запросу " + strSearch + " ничего не найдено.");
+    }
+
+    public void OnClickOtherEvent(View v) {
+        Intent intent = new Intent(SecondActivity.this, InfoEventActivity.class);
+        startActivity(intent);
     }
 }

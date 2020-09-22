@@ -35,7 +35,6 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
             android:background="#FFC107"
-            android:onClick="OnClickSearch"
             android:text="@string/buttonSearch_2"
             android:textColor="#FFFFFF" />
 
