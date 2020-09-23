@@ -12,6 +12,12 @@ import org.w3c.dom.Element;
 
 public class SecondActivity extends AppCompatActivity {
 
+    private String[] Events = {"День города.", "Новый год."};
+
+    private String[] mDates = {"12.06.", "31.12 - 01.01."};
+
+    int[] mImageIds = {R.drawable.star, R.drawable.star_black};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

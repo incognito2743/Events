@@ -10,5 +10,6 @@ public class InfoEventActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info_event);
+        getSupportActionBar().hide();
     }
 }
